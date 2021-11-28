@@ -1,3 +1,9 @@
 <template>
-  <Nuxt/>
+  <div>
+    <TopBar/>
+    <NavBar/>
+    <Title/>
+    <Nuxt/>
+    <Footer/>
+  </div>
 </template>
