@@ -37,7 +37,9 @@
     "http-server": "^14.0.0",
     "husky": "^6.0.0",
     "lint-staged": "^10.5.4",
+    "node-sass": "^4.14.1",
     "prettier": "^2.3.2",
+    "sass-loader": "^10.2.0",
     "stylelint": "^13.13.1",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^22.0.0"
