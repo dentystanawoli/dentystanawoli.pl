@@ -4,6 +4,6 @@
     <NavBar/>
     <Title/>
     <Nuxt/>
-    <Footer/>
+    <LazyFooter/>
   </div>
 </template>
