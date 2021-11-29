@@ -57,7 +57,8 @@ export default {
   // Disable Bootstrap and Bootstrap Vue CSS files.
   bootstrapVue: {
     bootstrapCSS: false,
-    bootstrapVueCSS: false
+    bootstrapVueCSS: false,
+    icons: true
   },
 
   // Google Fonts.
