@@ -1,5 +1,7 @@
+// Custom overrides.
+$font-family-base: 'Open Sans', sans-serif;
 $primary: #08c;
 
-// Bootstrap and BootstrapVue SCSS files
+// Bootstrap and BootstrapVue SCSS files.
 @import "~bootstrap/scss/bootstrap";
 @import "~bootstrap-vue/src/index";

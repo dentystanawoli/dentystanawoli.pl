@@ -41,7 +41,9 @@ export default {
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
     // https://github.com/Developmint/nuxt-purgecss
-    'nuxt-purgecss'
+    'nuxt-purgecss',
+    // https://google-fonts.nuxtjs.org
+    '@nuxtjs/google-fonts'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -56,6 +58,13 @@ export default {
   bootstrapVue: {
     bootstrapCSS: false,
     bootstrapVueCSS: false
+  },
+
+  // Google Fonts.
+  googleFonts: {
+    families: {
+      'Open+Sans': true
+    },
   },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
