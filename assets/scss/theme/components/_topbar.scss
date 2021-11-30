@@ -1,0 +1,15 @@
+.top-bar-wrapper {
+  background-color: #EFEFEF;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-size: 0.95em;
+
+  a {
+    @extend .align-middle;
+
+    color: #999;
+  }
+  .bi {
+    @extend .align-middle;
+  }
+}
