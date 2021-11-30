@@ -68,6 +68,13 @@ export default {
     },
   },
 
+  // PurgeCSS
+  purgeCss: {
+    whitelist: [
+      'top-bar-wrapper'
+    ]
+  },
+
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
 
