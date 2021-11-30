@@ -1,0 +1,26 @@
+.navbar-wrapper {
+  padding: 1rem 0;
+
+  .nav-item {
+    & > a {
+      text-transform: uppercase;
+      font-weight: 700;
+      color: $primary;
+      font-size: .85rem;
+    }
+  }
+
+  .navbar-brand {
+    img {
+      @include media-breakpoint-down(xs) {
+        height: 30px;
+      }
+      @include media-breakpoint-up(sm) {
+        height: 40px;
+      }
+      @include media-breakpoint-up(md) {
+        height: 50px;
+      }
+    }
+  }
+}

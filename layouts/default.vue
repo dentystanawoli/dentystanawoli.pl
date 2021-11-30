@@ -1,7 +1,7 @@
 <template>
   <div>
     <TopBar/>
-    <NavBar/>
+    <Navbar/>
     <Title/>
     <Nuxt/>
     <LazyFooter/>
