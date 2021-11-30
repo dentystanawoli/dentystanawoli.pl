@@ -72,7 +72,8 @@ export default {
   purgeCss: {
     whitelist: [
       'navbar-wrapper',
-      'top-bar-wrapper'
+      'top-bar-wrapper',
+      'footer-wrapper'
     ]
   },
 

@@ -1,0 +1,36 @@
+.footer-wrapper {
+  padding-top: 2rem;
+  font-size: 0.85rem;
+
+  a, p, .bi, h3 {
+    color: $gray-200;
+  }
+
+  p {
+    margin-bottom: 0.85rem;
+  }
+
+  .navbar-brand {
+    img {
+      @include media-breakpoint-down(xs) {
+        height: 30px;
+      }
+      @include media-breakpoint-up(sm) {
+        height: 40px;
+      }
+      @include media-breakpoint-up(md) {
+        height: 50px;
+      }
+    }
+  }
+
+  .hours {
+    @include media-breakpoint-up(md) {
+      margin-top: 10px;
+    }
+  }
+
+  .copyright .row {
+    border-top: 1px solid $gray-600;
+  }
+}

@@ -3,9 +3,15 @@ $font-family-base: 'Open Sans', sans-serif;
 $primary: #08c;
 $link-hover-decoration: none;
 
+$gradient-start: darken(#2c455d, 1);
+$gradient-end: darken(#00012c, 2);
+
 // Bootstrap and BootstrapVue SCSS files.
 @import "~bootstrap/scss/bootstrap";
 @import "~bootstrap-vue/src/index";
 
+@import "helpers/gradient";
+
 @import "components/topbar";
 @import "components/navbar";
+@import "components/footer";
