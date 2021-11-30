@@ -9,7 +9,7 @@ module.exports = {
     'at-rule-no-unknown': [
       true,
       {
-        ignoreAtRules: ['extend'],
+        ignoreAtRules: ['extend', 'include'],
       },
     ]
   }
