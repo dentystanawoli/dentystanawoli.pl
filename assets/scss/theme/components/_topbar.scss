@@ -4,12 +4,13 @@
   padding-bottom: 0.5em;
   font-size: 0.95em;
 
-  a {
+  a > span {
     @extend .align-middle;
 
     color: #999;
   }
+
   .bi {
-    @extend .align-middle;
+    @extend .align-text-bottom;
   }
 }
