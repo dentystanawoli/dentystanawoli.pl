@@ -40,8 +40,6 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
-    // https://github.com/Developmint/nuxt-purgecss
-    'nuxt-purgecss',
     // https://google-fonts.nuxtjs.org
     '@nuxtjs/google-fonts'
   ],
@@ -66,15 +64,6 @@ export default {
     families: {
       'Open+Sans': true
     },
-  },
-
-  // PurgeCSS
-  purgeCss: {
-    whitelist: [
-      'navbar-wrapper',
-      'top-bar-wrapper',
-      'footer-wrapper'
-    ]
   },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
