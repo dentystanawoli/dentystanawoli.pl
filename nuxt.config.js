@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Dentysta na Woli',
+    titleTemplate: '%s | Dentysta na Woli',
     htmlAttrs: {
       lang: 'pl'
     },
@@ -20,6 +20,10 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
+  },
+
+  messages: {
+    error_404: 'Nie znaleziono strony.',
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
