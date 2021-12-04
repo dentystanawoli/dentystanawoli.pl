@@ -1,7 +1,17 @@
 <template>
-  <h1 class="text-center">dentystanawoli.pl</h1>
+  <h1 class="text-center">lorem ipsum</h1>
 </template>
 
 <script>
-export default {}
+export default {
+  head() {
+    return {
+      titleTemplate: '%s',
+      title: 'Dentysta na Woli'
+    }
+  },
+  mounted () {
+    this.$store.commit('SET_TITLE', false)
+  }
+}
 </script>
