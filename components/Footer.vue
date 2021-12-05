@@ -1,8 +1,8 @@
 <template>
-  <div class="footer-wrapper gradient">
+  <div class="footer-wrapper gradient mt-5">
     <b-container>
       <b-row class="justify-content-center justify-content-md-start">
-        <b-col class="contact" cols="11" sm="6" md="6" lg="5" xl="4">
+        <b-col class="contact" cols="11" sm=6 md=6 lg=5 xl=4>
           <b-navbar-brand>
             <NuxtLink to="/"><img src="~/assets/images/logo.svg" alt="Dentysta na Woli"/></NuxtLink>
           </b-navbar-brand>
@@ -25,7 +25,7 @@
             </a>
           </p>
         </b-col>
-        <b-col class="hours" cols="11" sm="6" md="5" lg="4" xl="3">
+        <b-col class="hours" cols=11 sm=6 md=5 lg=4 xl=3>
           <h3 class="mb-3">Godziny otwarcia:</h3>
           <p>Poniedziałek - Piątek <span class="float-right">9.00 - 20.00</span></p>
           <p>Sobota <span class="float-right">9.00 - 13.30</span></p>
