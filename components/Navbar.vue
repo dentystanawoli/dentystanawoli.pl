@@ -12,7 +12,7 @@
           <b-navbar-nav class="ml-auto">
             <b-nav-item-dropdown split>
               <template #button-content>
-                <NuxtLink to="oferta">Oferta</NuxtLink>
+                <NuxtLink to="/oferta">Oferta</NuxtLink>
               </template>
               <b-dropdown-item>
                 <nuxt-link to="/oferta/profilaktyka-stomatologiczna">Profilaktyka stomatologiczna</nuxt-link>
