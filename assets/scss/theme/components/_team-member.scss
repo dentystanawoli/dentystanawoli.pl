@@ -1,0 +1,29 @@
+.team-member {
+  .card {
+    @extend .border-0;
+
+    .card-header {
+      @extend .gradient;
+      @extend .text-white;
+
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 1.125rem;
+    }
+
+    .list-group {
+      .specs {
+        @extend .text-white;
+
+        max-width: 75%;
+        padding: 0.5rem 0.75rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: -1rem;
+        font-weight: 300;
+        font-size: 0.75rem;
+        background-color: $primary;
+      }
+    }
+  }
+}
