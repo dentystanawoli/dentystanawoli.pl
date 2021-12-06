@@ -2,11 +2,17 @@
   padding: 1rem 0;
 
   .nav-item {
-    & > a {
-      text-transform: uppercase;
-      font-weight: 700;
-      color: $primary;
-      font-size: .85rem;
+    & > .nav-link {
+      a, span {
+        text-transform: uppercase;
+        font-weight: 700;
+        color: $primary;
+        font-size: .85rem;
+
+        &:hover {
+          color: darken($primary, 15);
+        }
+      }
     }
   }
 

@@ -1,6 +1,7 @@
 // Custom overrides.
 $font-family-base: 'Open Sans', sans-serif;
 $primary: #08c;
+$body-color: #777;
 $link-hover-decoration: none;
 
 $gradient-start: darken(#2c455d, 1);
@@ -11,8 +12,9 @@ $gradient-end: darken(#00012c, 2);
 @import "~bootstrap-vue/src/index";
 
 @import "helpers/gradient";
+@import "helpers/link";
 
 @import "components/topbar";
 @import "components/navbar";
 @import "components/footer";
-@import "components/team-member"
+@import "components/team-member";
