@@ -10,10 +10,8 @@
         <h2>Poznaj nas</h2>
       </div>
     </div>
-    <div class="row">
-      <div class="card-group">
-        <TeamMember v-for="member in team" :key="member.slug" :member="member"/>
-      </div>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-3">
+      <TeamMember v-for="member in team" :key="member.slug" :member="member"/>
     </div>
   </div>
 </template>
