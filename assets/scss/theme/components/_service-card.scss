@@ -1,0 +1,29 @@
+.service-card {
+
+  .card {
+    @extend .border-0;
+
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    transform: perspective(0) translateZ(0);
+    transition-duration: 0.3s;
+    transition-property: background-color;
+
+    .card-img-top {
+      padding: 1.25rem;
+      max-height: 7rem;
+    }
+
+    .card-header {
+      background: none;
+      border-bottom: none;
+      font-weight: bolder;
+    }
+  }
+
+  &:hover {
+    .card {
+      background: lighten($primary, 60);
+    }
+  }
+}
