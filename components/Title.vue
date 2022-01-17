@@ -14,12 +14,6 @@
 import { mapState } from 'vuex'
 
 export default {
-  props: {
-    title: {
-      type: String,
-      default: null
-    }
-  },
   computed: {
     ...mapState({
       title: state => state.title
