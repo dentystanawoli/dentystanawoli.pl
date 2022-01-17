@@ -1,0 +1,21 @@
+item                                                                          ,price    ,level
+Konsultacja                                                                   ,150
+Odbudowa pod koferdam                                                         ,150 - 200
+"Pierwotne leczenie kanałowe: (zawierające znieczulenie, koferdam, mikroskop)"
+1 kanał                                                                       ,600      ,1
+2 kanały                                                                      ,900      ,1
+3 kanały                                                                      ,1 200     ,1
+4 kanały lub więcej                                                           ,1 400     ,1
+"Rewizja leczenia kanałowego (powtórne leczenie kanałowe, reendo):"
+1 kanał                                                                       ,700    ,1
+2 kanały                                                                      ,1 000     ,1
+3 kanały                                                                      ,1 400     ,1
+4 kanały lub więcej                                                           ,1 600     ,1
+Udrożnienie kanału zobliterowanego (osobny zabieg):
+Leczenie kontynuowane w innym gabinecie                                       ,300      ,1
+Leczenie kontynuowane w naszym gabinecie                                      ,100      ,1
+Próba usunięciaamanego narzędzia z kanału                                     ,300 - 600
+Zamknięcie perforacji dna komory lub kanału preparatem pro-root mta           ,300
+Usunięcie cementu z kanału (osobny zabieg)                                    ,400
+Wyjęcie wkładu z kanału                                                       ,300 - 500
+Godzina pracy pod mikroskopem (gdy nie uzyska się efektów)                    ,150
