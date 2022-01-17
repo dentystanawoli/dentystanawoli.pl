@@ -14,33 +14,14 @@
               <b-dropdown-item>
                 <nuxt-link to="/oferta">Nasze usługi</nuxt-link>
               </b-dropdown-item>
-              <b-dropdown-divider />
-              <b-dropdown-item>
-                <nuxt-link to="/oferta/profilaktyka-stomatologiczna">Profilaktyka stomatologiczna</nuxt-link>
+              <b-dropdown-divider/>
+              <b-dropdown-item v-for="service in services" :key="service.path">
+                <nuxt-link :to="service.path">{{ service.title }}</nuxt-link>
               </b-dropdown-item>
-              <b-dropdown-item>
-                <nuxt-link to="/oferta/stomatologia-zachowawcza">Stomatologia Zachowawcza</nuxt-link>
-              </b-dropdown-item>
-              <b-dropdown-item>
-                <nuxt-link to="/oferta/endodoncja">Endodoncja</nuxt-link>
-              </b-dropdown-item>
-              <b-dropdown-item>
-                <nuxt-link to="/oferta/ortodoncja">Ortodoncja</nuxt-link>
-              </b-dropdown-item>
-              <b-dropdown-item>
-                <nuxt-link to="/oferta/wybielanie-zebow">Wybielanie zębów</nuxt-link>
-              </b-dropdown-item>
-              <b-dropdown-item>
-                <nuxt-link to="/oferta/protetyka">Protetyka</nuxt-link>
-              </b-dropdown-item>
-              <b-dropdown-item>
-                <nuxt-link to="/oferta/chirurgia">Chirurgia</nuxt-link>
-              </b-dropdown-item>
-              <b-dropdown-item>
-                <nuxt-link to="/oferta/implanty">Implanty</nuxt-link>
-              </b-dropdown-item>
-              <b-dropdown-item>
-                <nuxt-link to="/oferta/stomatologia-estetyczna">Stomatologia estetyczna</nuxt-link>
+            </b-nav-item-dropdown>
+            <b-nav-item-dropdown text="Cennik">
+              <b-dropdown-item v-for="pricelist in priceLists" :key="pricelist.path">
+                <nuxt-link :to="pricelist.path">{{ pricelist.title }}</nuxt-link>
               </b-dropdown-item>
             </b-nav-item-dropdown>
             <b-nav-item>
@@ -61,3 +42,19 @@
     </b-container>
   </div>
 </template>
+
+<script>
+export default {
+  data () {
+    return {
+      priceLists: {},
+      services: {},
+    }
+  },
+  async fetch () {
+    this.priceLists = await this.$content('cennik', {deep: true}).sortBy('weight').only(['title', 'path']).fetch()
+    this.services = await this.$content('oferta', {deep: true}).sortBy('weight').only(['title', 'path']).fetch()
+  },
+  fetchOnServer: false,
+}
+</script>
