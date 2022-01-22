@@ -42,7 +42,9 @@ export default {
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
     // https://google-fonts.nuxtjs.org
-    '@nuxtjs/google-fonts'
+    '@nuxtjs/google-fonts',
+    // https://github.com/robcresswell/nuxt-compress
+    'nuxt-compress'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
