@@ -30,6 +30,7 @@
 
 <script>
 export default {
+  scrollToTop: false,
   async asyncData ({$content, params}) {
     const csv = await $content('csv-cennik', params.slug).fetch()
     const page = await $content('cennik', params.slug).fetch()
