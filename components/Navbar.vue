@@ -1,7 +1,7 @@
 <template>
   <div class="navbar-wrapper">
     <b-container>
-      <b-navbar sticky="true" toggleable="lg" class="dropdown-menu-left">
+      <b-navbar sticky toggleable="lg" class="dropdown-menu-left">
         <b-navbar-brand>
           <NuxtLink to="/"><img src="~/assets/images/logo.svg" alt="Dentysta na Woli"/></NuxtLink>
         </b-navbar-brand>

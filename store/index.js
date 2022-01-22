@@ -1,9 +1,9 @@
-export const state = {
+export const state = () => ({
   title: false
-}
+})
 
 export const mutations = {
   SET_TITLE (state, title) {
-    state.title= title
+    state.title = title
   }
 }

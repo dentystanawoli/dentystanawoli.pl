@@ -8,9 +8,9 @@
 export default {
   props: {
     priceListItems: {
-      type: Object,
+      type: Array,
       default () {
-        return {}
+        return []
       }
     }
   }

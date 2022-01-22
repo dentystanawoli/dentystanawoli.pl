@@ -35,7 +35,7 @@
     </b-container>
     <b-container class="copyright text-center">
       <b-row class="pt-2 pb-1">
-        <b-col col="12"><p>Copyright Dentysta na Woli ©{{ year }}</p></b-col>
+        <b-col col><p>Copyright Dentysta na Woli ©{{ year }}</p></b-col>
       </b-row>
     </b-container>
   </div>
