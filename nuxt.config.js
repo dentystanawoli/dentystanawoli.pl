@@ -64,6 +64,7 @@ export default {
 
   // Google Fonts.
   googleFonts: {
+    display: 'swap',
     families: {
       'Open+Sans': true
     },
