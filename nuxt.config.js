@@ -59,7 +59,29 @@ export default {
   bootstrapVue: {
     bootstrapCSS: false,
     bootstrapVueCSS: false,
-    icons: true
+    components: [
+      // Container, row and col
+      'BContainer',
+      'BRow',
+      'BCol',
+      // Navbar items
+      'BNavbar',
+      'BNavbarBrand',
+      'BNavbarToggle',
+      'BCollapse',
+      'BNavbarNav',
+      'BNavItem',
+      'BNavItemDropdown',
+      'BDropdownItem',
+      // Nav
+      'BNav',
+      // Icons
+      'BIcon',
+      'BIconFacebook',
+      'BIconTelephoneFill',
+      'BIconMapFill',
+      'BIconEnvelopeFill'
+    ]
   },
 
   // Google Fonts.
@@ -75,6 +97,9 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    babel: {
+      babelrc: true
+    }
   },
 
   generate: {
