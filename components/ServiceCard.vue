@@ -1,7 +1,7 @@
 <template>
   <div class="service-card col">
     <div class="card">
-      <img class="card-img-top" :src="require(`~/assets/images/oferta/${service.slug}.svg`)" :alt="service.title"/>
+      <img class="card-img-top" :src="require(`~/assets/images/oferta/${service.slug}.svg`)" :alt="service.title" width="112" height="112"/>
       <div class="card-header">
         <h5 class="text-center">
           {{ service.title }}
