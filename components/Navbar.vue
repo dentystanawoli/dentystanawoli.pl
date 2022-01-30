@@ -3,7 +3,7 @@
     <b-container>
       <b-navbar sticky toggleable="lg" class="dropdown-menu-left">
         <b-navbar-brand>
-          <NuxtLink to="/"><img src="~/assets/images/logo.svg" alt="Dentysta na Woli"/></NuxtLink>
+          <NuxtLink to="/"><img src="~/assets/images/logo.svg" alt="Dentysta na Woli" width="291" height="50"/></NuxtLink>
         </b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
