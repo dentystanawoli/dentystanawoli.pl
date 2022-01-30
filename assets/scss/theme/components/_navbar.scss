@@ -19,13 +19,16 @@
   .navbar-brand {
     img {
       @include media-breakpoint-down(xs) {
+        width: 175px;
         height: 30px;
       }
       @include media-breakpoint-up(sm) {
+        width: 233px;
         height: 40px;
       }
       @include media-breakpoint-up(md) {
         height: 50px;
+        width: 291px;
       }
     }
   }
