@@ -103,6 +103,7 @@ export default {
   },
 
   generate: {
-    dir: 'public'
+    dir: 'public',
+    fallback: '404.html'
   }
 }
