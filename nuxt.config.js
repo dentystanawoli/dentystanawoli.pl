@@ -53,6 +53,8 @@ export default {
     'bootstrap-vue/nuxt',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    // https://www.npmjs.com/package/nuxt-content-git
+    'nuxt-content-git'
   ],
 
   // Disable Bootstrap and Bootstrap Vue CSS files.
