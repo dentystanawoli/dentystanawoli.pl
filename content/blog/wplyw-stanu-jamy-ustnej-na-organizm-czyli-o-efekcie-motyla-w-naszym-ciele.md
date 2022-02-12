@@ -6,7 +6,7 @@ tags:
 
 category: Stomatologia zachowawcza
 
-image: wplyw-stanu-jamy-ustnej-na-organizm-czyli-o-efekcie-motyla-w-naszym-ciele.jpg
+image: wplyw-stanu-jamy-ustnej-na-organizm-czyli-o-efekcie-motyla-w-naszym-ciele.webp
 
 createdAt: 2018-03-20T12:00:00.000Z
 

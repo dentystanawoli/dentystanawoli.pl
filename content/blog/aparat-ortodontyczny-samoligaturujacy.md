@@ -6,7 +6,7 @@ tags:
 
 category: Ortodoncja
 
-image: aparat-ortodontyczny-samoligaturujacy.jpg
+image: aparat-ortodontyczny-samoligaturujacy.webp
 
 createdAt: 2018-10-22T12:00:00.000Z
 

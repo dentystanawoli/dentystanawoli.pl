@@ -8,7 +8,7 @@ tags:
 
 category: Protetyka
 
-image: implant-vs-most.jpg
+image: implant-vs-most.webp
 
 createdAt: 2019-01-22T12:00:00.000Z
 

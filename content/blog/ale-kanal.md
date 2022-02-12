@@ -6,7 +6,7 @@ tags:
 
 category: Endodoncja
 
-image: ale-kanal.jpg
+image: ale-kanal.webp
 
 createdAt: 2018-04-18T12:00:00.000Z
 

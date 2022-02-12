@@ -6,7 +6,7 @@ tags:
 
 category: Ortodoncja
 
-image: zalozenie-aparatu-jak-ugryzc.jpg
+image: zalozenie-aparatu-jak-ugryzc.webp
 
 createdAt: 2018-07-14T12:00:00.000Z
 

@@ -7,7 +7,7 @@ tags:
 
 category: Stomatologia zachowawcza
 
-image: brakujacy-zab.jpg
+image: brakujacy-zab.webp
 
 createdAt: 2018-12-03T12:00:00.000Z
 

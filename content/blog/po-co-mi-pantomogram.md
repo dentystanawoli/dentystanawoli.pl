@@ -6,7 +6,7 @@ tags:
 
 category: Endodoncja
 
-image: po-co-mi-pantomogram.png
+image: po-co-mi-pantomogram.webp
 
 createdAt: 2018-03-29T12:00:00.000Z
 
