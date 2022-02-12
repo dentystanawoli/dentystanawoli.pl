@@ -1,0 +1,26 @@
+.blog-teaser {
+  margin-bottom: 3rem;
+
+  .title {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+
+  .teaser {
+    font-size: 0.9rem;
+
+    p {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .footer {
+    font-size: 0.75rem;
+    color: #999;
+
+    .bi-clock {
+      font-size: 0.85rem
+    }
+  }
+}

@@ -82,7 +82,8 @@ export default {
       'BIconFacebook',
       'BIconTelephoneFill',
       'BIconMapFill',
-      'BIconEnvelopeFill'
+      'BIconEnvelopeFill',
+      'BIconClock'
     ]
   },
 
