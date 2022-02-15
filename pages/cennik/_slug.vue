@@ -12,7 +12,7 @@
     </div>
     <div class="row">
       <div class="col">
-        <h2>{{ title }}</h2>
+        <h2 class="header-underline">{{ title }}</h2>
       </div>
     </div>
     <div class="row">
