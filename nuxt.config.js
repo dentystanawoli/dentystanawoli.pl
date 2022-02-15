@@ -75,6 +75,7 @@ export default {
       'BNavItem',
       'BNavItemDropdown',
       'BDropdownItem',
+      'BDropdownDivider',
       // Nav
       'BNav',
       // Icons
