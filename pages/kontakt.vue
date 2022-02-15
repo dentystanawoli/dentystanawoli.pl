@@ -10,7 +10,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-12 col-lg-4">
+      <div class="col-12 col-lg-4 mb-sm-3 mb-lg-3">
         <div class="card bg-primary text-white">
           <div class="card-body">
             <h3 class="mb-4 text-white">Dentysta na Woli</h3>
