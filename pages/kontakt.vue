@@ -13,7 +13,7 @@
       <div class="col-12 col-lg-4">
         <div class="card bg-primary text-white">
           <div class="card-body">
-            <h3 class="mb-4">Dentysta na Woli</h3>
+            <h3 class="mb-4 text-white">Dentysta na Woli</h3>
             <dl>
 
               <dt>Adres</dt>
@@ -29,7 +29,7 @@
         </div>
       </div>
       <div class="col-12 col-lg-8">
-        <h2 class="mb-3">Napisz do nas</h2>
+        <h2 class="mb-3 header-underline">Napisz do nas</h2>
 
         <div v-if="showMessage" class="alert alert-success alert-dismissible fade show" role="alert">
           Wiadomość została wysłana

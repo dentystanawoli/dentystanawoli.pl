@@ -7,7 +7,7 @@
     </div>
     <div class="row mb-3">
       <div class="col">
-        <h2>Poznaj nas</h2>
+        <h2 class="header-underline">Poznaj nas</h2>
       </div>
     </div>
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-3">

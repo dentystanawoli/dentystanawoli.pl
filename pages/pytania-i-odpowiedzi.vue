@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col">
         <div v-for="question in questions" :key="question" class="question-and-answer">
-          <h3 class="question">{{ question.title }}</h3>
+          <h3 class="question header-underline">{{ question.title }}</h3>
           <nuxt-content :document="question" class="answer"/>
         </div>
       </div>
