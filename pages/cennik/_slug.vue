@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col">
-        <BasicPriceList :priceListItems="basicPriceListItems.body"/>
+        <BasicPriceList :price-list-items="basicPriceListItems.body"/>
       </div>
     </div>
     <div class="row">
@@ -22,7 +22,7 @@
     </div>
     <div class="row">
       <div class="col small">
-        <nuxt-content :document="priceListDisclaimer" />
+        <nuxt-content :document="priceListDisclaimer"/>
       </div>
     </div>
   </div>
