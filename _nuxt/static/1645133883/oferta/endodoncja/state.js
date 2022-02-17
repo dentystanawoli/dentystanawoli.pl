@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1645133883",layout:"default",error:a,state:{title:false},serverRendered:true,routePath:"\u002Foferta\u002Fendodoncja",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:a},content:{dbHash:"bd2d7f97"}}}}(null));
