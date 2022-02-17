@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-12 col-md-6">
         <nuxt-link :to="blog">
-          <img class="img-fluid" :alt="blog.title" :src="require(`~/assets/images/blog/${blog.image}`)"/>
+          <nuxt-img class="img-fluid" :alt="blog.title" :src="`/images/blog/${blog.image}`"/>
         </nuxt-link>
       </div>
       <div class="col-12 col-md-6">

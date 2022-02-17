@@ -44,7 +44,8 @@ export default {
     // https://google-fonts.nuxtjs.org
     '@nuxtjs/google-fonts',
     // https://github.com/robcresswell/nuxt-compress
-    'nuxt-compress'
+    'nuxt-compress',
+    '@nuxt/image'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -104,7 +105,10 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     babel: {
-      babelrc: true
+      babelrc: true,
+      plugins: [
+        '@babel/plugin-proposal-optional-chaining'
+      ]
     }
   },
 

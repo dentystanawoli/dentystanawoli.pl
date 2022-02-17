@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12 col-lg-8 mb-100">
-        <img :alt="blog.title" class="img-fluid mb-5" :src="require(`~/assets/images/blog/${blog.image}`)"/>
+        <nuxt-img :alt="blog.title" class="img-fluid mb-5" :src="`/images/blog/${blog.image}`"/>
         <nuxt-content :document="blog" />
       </div>
       <div class="col-12 col-lg-4">

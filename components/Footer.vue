@@ -4,7 +4,7 @@
       <b-row class="justify-content-center justify-content-md-start">
         <b-col class="contact" cols="11" sm=6 md=6 lg=5 xl=4>
           <b-navbar-brand>
-            <NuxtLink to="/"><img src="~/assets/images/logo.svg" width="291" height="50" alt="Dentysta na Woli"/></NuxtLink>
+            <NuxtLink to="/"><nuxt-img src="/images/logo.svg" width="291" height="50" alt="Dentysta na Woli"/></NuxtLink>
           </b-navbar-brand>
           <p>
             <a href="https://g.page/DentystanaWoli" target="_blank">
