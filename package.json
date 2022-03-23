@@ -30,7 +30,6 @@
     "ipx": "^0.9.4",
     "jquery": "1.9.1",
     "nuxt": "^2.15.7",
-    "nuxt-content-git": "^2.0.14",
     "nuxt-purgecss": "^1.0.0",
     "popper.js": "^1.16.1",
     "vue": "^2.6.12",
