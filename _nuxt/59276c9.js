@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[16],{151:function(e,n,d){"use strict";d.r(n);var l={middleware:({redirect:e})=>e("301","/blog/strona/1")},o=d(15),component=Object(o.a)(l,undefined,undefined,!1,null,null,null);n.default=component.exports}}]);
