@@ -2,7 +2,7 @@
   <div class="blog-categories">
     <h4 class="header-underline">Kategorie</h4>
     <ul>
-      <li v-for="category in categories" :key="category"><nuxt-link :to="`blog/kategoria/${category.replace(/\s+/g, '-').toLowerCase()}`">{{ category }}</nuxt-link></li>
+      <li v-for="category in categories" :key="category"><nuxt-link :to="`/blog/kategoria/${category.replace(/\s+/g, '-').toLowerCase()}/strona/1`">{{ category }}</nuxt-link></li>
     </ul>
   </div>
 </template>
