@@ -3,10 +3,17 @@ import nuxtConfig from '@/nuxt.config'
 export default async($content, params, error) => {
   const currentPage = parseInt(params.page);
 
+  // Set filters.
+  const conditions = {};
+
+  if (params.category) {
+    conditions.category = { '$regex': [params.category.replace('-', ' '), 'i']}
+  }
+
   // Set how many articles to show per page
   const perPage = nuxtConfig.content.blogPagination || 5;
 
-  const allBlogs = await $content('blog').fetch();
+  const allBlogs = await $content('blog').where(conditions).fetch();
 
   const totalBlogs = allBlogs.length;
 
@@ -30,14 +37,18 @@ export default async($content, params, error) => {
     .sortBy('createdAt', 'desc')
     .limit(perPage)
     .skip(skipNumber())
+    .where(conditions)
     .fetch();
 
   if (currentPage === 0 || !paginatedBlogs.length) {
     return error({ statusCode: 404, message: 'Nie znaleziono strony!' });
   }
 
+  const blogCategory = paginatedBlogs[0].category;
+
   return {
     allBlogs,
     paginatedBlogs,
+    blogCategory
   };
 }
