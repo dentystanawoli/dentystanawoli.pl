@@ -1,11 +1,11 @@
 <template>
   <nav aria-label="Nawigacja">
     <ul class="pagination justify-content-center">
-      <li v-if="currentPage === 1" class="page-item disabled">
+      <li v-if="currentPage === 1 && total > perPage" class="page-item disabled">
         <span class="page-link">Pierwsza</span>
       </li>
 
-      <li v-if="currentPage !== 1" class="page-item">
+      <li v-if="currentPage !== 1 && total > perPage" class="page-item">
         <nuxt-link class="page-link" :to="{ name: 'blog-strona-page', params: { page: 1 } }">
           Pierwsza
         </nuxt-link>
@@ -23,7 +23,7 @@
         </nuxt-link>
       </li>
 
-      <li class="page-item active">
+      <li v-if="total > perPage" class="page-item active">
         <nuxt-link class="page-link" :to="{ name: 'blog-strona-page', params: { page: currentPage } }">
           {{ currentPage }}
         </nuxt-link>
@@ -41,7 +41,7 @@
         </nuxt-link>
       </li>
 
-      <li v-if="currentPage === totalPages" class="page-item disabled">
+      <li v-if="currentPage === totalPages && total > perPage" class="page-item disabled">
         <span class="page-link">
           Ostatnia
         </span>
