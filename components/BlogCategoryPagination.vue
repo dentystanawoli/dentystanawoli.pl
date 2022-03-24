@@ -53,8 +53,6 @@
         </nuxt-link>
       </li>
     </ul>
-
-
   </nav>
 </template>
 
