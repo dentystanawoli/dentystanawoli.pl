@@ -83,7 +83,10 @@ export default {
       'BIconTelephoneFill',
       'BIconMapFill',
       'BIconEnvelopeFill',
-      'BIconClock'
+      'BIconClock',
+      // Forms
+      'BForm',
+      'BButton'
     ]
   },
 
