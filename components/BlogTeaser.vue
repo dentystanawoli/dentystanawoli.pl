@@ -14,7 +14,7 @@
           <nuxt-content :document="{ body: blog.excerpt }"/>
         </div>
         <div class="footer">
-          <span class="published"><b-icon-clock variant="primary" /> {{ created }}</span>
+          <span class="published"><b-icon-clock variant="primary" /> {{ created(blog) }}</span>
           <span class="category float-right">Kategoria: {{ blog.category }}</span>
         </div>
       </div>
@@ -23,6 +23,8 @@
 </template>
 
 <script>
+import {created} from '@/utils/blog'
+
 export default {
   props: {
     blog: {
@@ -32,10 +34,9 @@ export default {
       }
     }
   },
-  computed: {
-    created() {
-      const date = new Date(this.blog.createdAt)
-      return date.toLocaleDateString()
+  methods: {
+    created (blog) {
+      return created(blog)
     }
   }
 }
