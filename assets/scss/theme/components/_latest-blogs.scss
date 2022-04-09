@@ -1,0 +1,18 @@
+.latest-blogs {
+  .latest-blog {
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+
+    .blog-content {
+      padding: 1rem;
+
+      h4 {
+        font-weight: bolder;
+      }
+
+      .published {
+        font-size: 0.85rem;
+        color: #999;
+      }
+    }
+  }
+}
