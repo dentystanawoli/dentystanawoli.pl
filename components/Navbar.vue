@@ -31,6 +31,9 @@
               <nuxt-link to="/blog">Blog</nuxt-link>
             </b-nav-item>
             <b-nav-item>
+              <nuxt-link to="/przemiany">Przemiany</nuxt-link>
+            </b-nav-item>
+            <b-nav-item>
               <nuxt-link to="/pytania-i-odpowiedzi">Pytania i odpowiedzi</nuxt-link>
             </b-nav-item>
             <b-nav-item>
