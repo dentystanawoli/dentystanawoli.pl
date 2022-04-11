@@ -1,8 +1,8 @@
 <template>
-  <div class="container latest-blogs">
+  <div class="container latest-blogs mb-5 mt-5">
     <div class="row">
       <div class="col-12">
-        <h3 class="text-center header-underline">Ostatnie wpisy na blogu</h3>
+        <h2 class="text-center header-underline mb-5">Ostatnie wpisy na blogu</h2>
       </div>
     </div>
     <div class="row">
