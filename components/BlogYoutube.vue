@@ -1,5 +1,5 @@
 <template>
-  <p :class="['blog-youtube', 'embed-responsive', `embed-responsive-${ratio}`]">
+  <p :class="['blog-youtube', `mt-3`, `mb-3`, 'embed-responsive', `embed-responsive-${ratio}`]">
     <iframe
       width="560"
       height="315"
