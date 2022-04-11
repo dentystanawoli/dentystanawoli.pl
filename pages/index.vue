@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-center">lorem ipsum</h1>
+    <Hero />
     <Services :services="services"/>
     <LatestBlogs :blogs="blogs"/>
   </div>
@@ -9,9 +9,10 @@
 <script>
 import LatestBlogs from '@/components/Homepage/LatestBlogs'
 import Services from '@/components/Homepage/Services'
+import Hero from '@/components/Homepage/Hero'
 
 export default {
-  components: {Services, LatestBlogs},
+  components: {Hero, Services, LatestBlogs},
   async asyncData ({$content}) {
     const blogs = await $content('blog').sortBy('createdAt', 'desc').only(['title', 'excerpt', 'createdAt', 'image', 'category', 'body']).limit(3).fetch()
     const services = await $content('oferta').sortBy('weight').fetch()
