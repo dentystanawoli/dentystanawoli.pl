@@ -2,9 +2,9 @@
 
 title: Stłoczone trzonowce
 
-before: /images/przemiany/stłoczone-trzonowce/przed.webp
+before: /images/przemiany/stloczone-trzonowce/przed.webp
 
-after: /images/przemiany/stłoczone-trzonowce/po.webp
+after: /images/przemiany/stloczone-trzonowce/po.webp
 
 ---
 
